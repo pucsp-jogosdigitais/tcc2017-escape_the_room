@@ -12,6 +12,6 @@ Inserir imagens do jogo.
 
 # Informações de como compilar o jogo:
 
-Descriver aqui quais são as ferramentas necessárias para alterar e compilar o jogo a partir do código fonte.
+link:https://gabriel568.itch.io/escape-the-room-16
 
 **OBSERVAÇÃO: NO REPOSITÓRIO DEVE EXISTIR TODOS OS ARQUIVOS DESENVOLVIDOS PARA O PROJETO, INCLUINDO ARTES, MODELOS 3D ORIGINAIS, ETC..**
