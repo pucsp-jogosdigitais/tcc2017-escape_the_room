@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 5bde240bac681ea41bb971f80f959364
+timeCreated: 1496793319
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Showguide
+  fontNames:
+  - Showguide
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

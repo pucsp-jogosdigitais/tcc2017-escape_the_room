@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b811363a8292afb4091bae790fddd3b9
+timeCreated: 1505820064
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: DK Spaghetti And Cheese
+  fontNames:
+  - DK Spaghetti And Cheese
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
