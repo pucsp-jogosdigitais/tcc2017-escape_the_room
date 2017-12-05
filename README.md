@@ -11,6 +11,7 @@ Voce esta preso na sala do seu chefe em um predio em chamas e tem que encontrar 
 Inserir imagens do jogo.
 
 # Informações de como compilar o jogo:
+para compilar o jogo use a unity 5.6.1f1
 
 link IO:https://gabriel568.itch.io/escape-the-room-16
 
