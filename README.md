@@ -1,6 +1,6 @@
 # Escape The Room
 
-Descreva aqui o que é o projeto e indique o link da Wiki para saber mais sobre o projeto
+Voce esta preso na sala do seu chefe em um predio em chamas e tem que encontrar a chave para sair
 
 # Nome completo dos integrantes do projeto:
 
@@ -11,7 +11,8 @@ Descreva aqui o que é o projeto e indique o link da Wiki para saber mais sobre 
 Inserir imagens do jogo.
 
 # Informações de como compilar o jogo:
+para compilar o jogo use a unity 5.6.1f1
 
-link:https://gabriel568.itch.io/escape-the-room-16
+link IO:https://gabriel568.itch.io/escape-the-room-16
 
 **OBSERVAÇÃO: NO REPOSITÓRIO DEVE EXISTIR TODOS OS ARQUIVOS DESENVOLVIDOS PARA O PROJETO, INCLUINDO ARTES, MODELOS 3D ORIGINAIS, ETC..**
