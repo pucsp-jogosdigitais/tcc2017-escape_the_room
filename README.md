@@ -1,6 +1,6 @@
 # Escape The Room
 
-Descreva aqui o que é o projeto e indique o link da Wiki para saber mais sobre o projeto
+Voce esta preso na sala do seu chefe em um predio em chamas e tem que encontrar a chave para sair
 
 # Nome completo dos integrantes do projeto:
 
