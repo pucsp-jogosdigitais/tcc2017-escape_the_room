@@ -14,7 +14,6 @@ Inserir imagens do jogo.
 para compilar o jogo use a unity 5.6.1f1
 
 link IO:https://gabriel568.itch.io/escape-the-room, 
-link gamejolt: https://gamejolt.com/games/escape-the-room/377760,
-link :
+link gamejolt: https://gamejolt.com/games/escape-the-room/377760
 
 **OBSERVAÇÃO: NO REPOSITÓRIO DEVE EXISTIR TODOS OS ARQUIVOS DESENVOLVIDOS PARA O PROJETO, INCLUINDO ARTES, MODELOS 3D ORIGINAIS, ETC..**
