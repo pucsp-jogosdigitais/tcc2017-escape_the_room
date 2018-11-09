@@ -9,16 +9,20 @@ public class CHAVE : MonoBehaviour
     public AudioClip somChave;
     private bool PegouChave;
     private GameObject Jogador;
+    [HideInInspector] public KeyPad keypad;
+
     void Start()
     {
         PegouChave = false;
-        Jogador = GameObject.FindWithTag("Player");
+        Jogador = GameObject.FindGameObjectWithTag("Player");
+        keypad = GameObject.Find("polySurface3").GetComponent<KeyPad>();
     }
+
     void Update()
     {
         if (Vector3.Distance(transform.position, Jogador.transform.position) < DistanciaDaChave)
         {
-			if (Input.GetButtonDown("Fire1") && PegouChave == false)
+            if (Input.GetButtonDown("Fire1") && PegouChave == false)
             {
                 PORTA.ListaDeIDs.Add(IDdaChave);
                 PegouChave = true;
@@ -27,5 +31,7 @@ public class CHAVE : MonoBehaviour
                 Destroy(gameObject, 0.05f);
             }
         }
+
+        //Debug.Log(keypad.doorOpen);
     }
 }

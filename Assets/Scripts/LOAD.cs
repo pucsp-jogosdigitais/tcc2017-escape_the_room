@@ -22,7 +22,7 @@ public class LOAD : MonoBehaviour
     {
         if(autoload)
         {
-            StartCoroutine(CenaDeCarregamento("Menu"));
+            StartCoroutine(CenaDeCarregamento("Level 1"));
         }
 
         switch (TipoDeCarregamento)

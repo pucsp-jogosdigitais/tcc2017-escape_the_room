@@ -93,6 +93,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
                 if (isPaused == false)
                 {
+                    Cursor.lockState = CursorLockMode.Confined;
                     Cursor.visible = true;
                     Time.timeScale = 0;
                     isPaused = true;

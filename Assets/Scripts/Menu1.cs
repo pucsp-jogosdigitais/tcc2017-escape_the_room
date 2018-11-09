@@ -11,6 +11,7 @@ public class Menu1 : MonoBehaviour
     
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = true;
     }
 

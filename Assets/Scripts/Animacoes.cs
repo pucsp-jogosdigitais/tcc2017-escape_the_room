@@ -2,25 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Animacoes : MonoBehaviour {
-
+public class Animacoes : MonoBehaviour
+{
     private Animator controladoorQuadro;
+    public bool quadro;
 
-	// Use this for initialization
-	void Start () {
+    void Start()
+    {
         controladoorQuadro = GetComponent<Animator>();
-
+        quadro = true;
     }
-	
-	// Update is called once per frame
-	void Update () {
-		if(Input.GetButtonDown("Fire2"))
+
+    void Update()
+    {
+        if (Input.GetButtonDown("Fire2"))
         {
             controladoorQuadro.SetInteger("condicao", 0);
+            quadro = false;
         }
-		if (Input.GetButtonDown("Fire3"))
+
+        if (Input.GetButtonDown("Fire3"))
         {
             controladoorQuadro.SetInteger("condicao", 1);
+            quadro = false;
         }
     }
 }

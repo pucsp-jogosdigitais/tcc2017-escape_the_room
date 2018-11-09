@@ -10,274 +10,163 @@ Material:
   m_Shader: {fileID: 4800000, guid: 4c81ed1c512a84e4285b39eaab006f91, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TexEnvs:
-    - first:
-        name: _AO
-      second:
+    - _AO:
         m_Texture: {fileID: 2800000, guid: f5b1589f8f7f1994f8c82d9701b057c4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _AmbientOcclusion
-      second:
+    - _AmbientOcclusion:
         m_Texture: {fileID: 2800000, guid: f5b1589f8f7f1994f8c82d9701b057c4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _BloodBaseColor
-      second:
+    - _BloodBaseColor:
         m_Texture: {fileID: 2800000, guid: e670ead6c9c18f0429d4fb0078f2b63c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _BloodDissolve
-      second:
+    - _BloodDissolve:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _BloodFlowBump
-      second:
+    - _BloodFlowBump:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _BloodMask
-      second:
+    - _BloodMask:
         m_Texture: {fileID: 2800000, guid: 38854b35c209b4244b0b7ae5a45fd712, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _BloodMetallic
-      second:
+    - _BloodMetallic:
         m_Texture: {fileID: 2800000, guid: fab51a97873958b4093cb48de36d106c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _BloodNormal
-      second:
+    - _BloodNormal:
         m_Texture: {fileID: 2800000, guid: b015569cb50719842af666ae2906f987, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _BloodTexture
-      second:
+    - _BloodTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Blood_Metallic
-      second:
+    - _Blood_Metallic:
         m_Texture: {fileID: 2800000, guid: 6c60c509a339c844a9cf76eec4dab7ca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Blood_bumb
-      second:
+    - _Blood_bumb:
         m_Texture: {fileID: 2800000, guid: dc0899f1fdfc1ac40b485a993aab5fed, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Blood_tex
-      second:
+    - _Blood_tex:
         m_Texture: {fileID: 2800000, guid: ccdfdad6289f7af4f9daa8261f9624ce, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _BumpMap
-      second:
+    - _BumpMap:
         m_Texture: {fileID: 2800000, guid: dc0899f1fdfc1ac40b485a993aab5fed, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _DetailAlbedoMap
-      second:
+    - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _DetailMask
-      second:
+    - _DetailMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _DetailNormalMap
-      second:
+    - _DetailNormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Dissolve
-      second:
+    - _Dissolve:
         m_Texture: {fileID: 2800000, guid: 9309741f5f1a53843baef3b8b21d419e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _EmissionMap
-      second:
+    - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _MainTex
-      second:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: dfbeeef380f09e64ba17017841da164f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _MainTextureMetallic
-      second:
+    - _MainTextureMetallic:
         m_Texture: {fileID: 2800000, guid: 90fb0048613f1e543b204e705b7de9e1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Metallic
-      second:
+    - _Metallic:
         m_Texture: {fileID: 2800000, guid: 90fb0048613f1e543b204e705b7de9e1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _MetallicGlossMap
-      second:
+    - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Occlusion
-      second:
+    - _Occlusion:
         m_Texture: {fileID: 2800000, guid: f5b1589f8f7f1994f8c82d9701b057c4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _OcclusionMap
-      second:
+    - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _ParallaxMap
-      second:
+    - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _SecondaryBloodBump
-      second:
+    - _SecondaryBloodBump:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _metallic
-      second:
+    - _metallic:
         m_Texture: {fileID: 2800000, guid: 90fb0048613f1e543b204e705b7de9e1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _node_4530
-      second:
+    - _node_4530:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _node_5768
-      second:
+    - _node_5768:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _node_6593
-      second:
+    - _node_6593:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _node_9564
-      second:
+    - _node_9564:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - first:
-        name: _BloodAmount
-      second: 0
-    - first:
-        name: _Blood_FlowIntensity
-      second: 0
-    - first:
-        name: _BulgeShape
-      second: 1
-    - first:
-        name: _BumpScale
-      second: 1
-    - first:
-        name: _Cutoff
-      second: 0.5
-    - first:
-        name: _DetailNormalMapScale
-      second: 1
-    - first:
-        name: _DstBlend
-      second: 0
-    - first:
-        name: _GlossMapScale
-      second: 1
-    - first:
-        name: _Glossiness
-      second: 0.5
-    - first:
-        name: _GlossyReflections
-      second: 1
-    - first:
-        name: _Metallic
-      second: 0
-    - first:
-        name: _Mode
-      second: 0
-    - first:
-        name: _OcclusionStrength
-      second: 1
-    - first:
-        name: _Parallax
-      second: 0.02
-    - first:
-        name: _SmoothnessTextureChannel
-      second: 0
-    - first:
-        name: _SpecularHighlights
-      second: 1
-    - first:
-        name: _SrcBlend
-      second: 1
-    - first:
-        name: _UVSec
-      second: 0
-    - first:
-        name: _ZWrite
-      second: 1
-    - first:
-        name: _blood_vis
-      second: 1
-    - first:
-        name: _node_7298
-      second: 0
-    - first:
-        name: _node_879
-      second: 0
+    - _BloodAmount: 0
+    - _Blood_FlowIntensity: 0
+    - _BulgeShape: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _blood_vis: 1
+    - _node_7298: 0
+    - _node_879: 0
     m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _Color_Multi
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _Color_copy
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _EmissionColor
-      second: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_Multi: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_copy: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

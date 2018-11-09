@@ -2,18 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyPad : MonoBehaviour {
-
+public class KeyPad : MonoBehaviour
+{
     public string curPassword = "12345";
     public string input;
     public bool onTrigger;
     public bool doorOpen;
     public bool keypadScreen;
     public Transform doorHinge;
+    [HideInInspector] public Animacoes animacoes;
+
+    void Awake()
+    {
+        animacoes = GameObject.Find("Quadro2 (3)").GetComponent<Animacoes>();
+    }
 
     void OnTriggerEnter(Collider other)
     {
-        onTrigger = true;
+        if (!animacoes.quadro)
+        {
+            onTrigger = true;
+        }
     }
 
     void OnTriggerExit(Collider other)
@@ -43,8 +52,8 @@ public class KeyPad : MonoBehaviour {
         {
             if (onTrigger)
             {
-                GUI.Box(new Rect(0, 0, 200, 25), "Pressione E para interagire");
-                
+                GUI.Box(new Rect(0, 0, 200, 45), "Pressione E para interagir");
+
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     keypadScreen = true;
